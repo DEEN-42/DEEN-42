@@ -4,6 +4,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Debanshu+Ghosh;Software+Engineer+%40+IIT+Kharagpur;Backend+Systems+%7C+Agentic+AI" alt="Typing SVG" />
 </a>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-debanshu.me-2563EB?style=flat-square)](https://debanshu.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/debanshu-ghosh)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:debanshughosh685@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DEEN-42)
@@ -17,6 +18,7 @@
 
 ### 🧑‍💻 About me
 
+- 🌐 Check out my full work and 3D experiences at **[debanshu.me](https://debanshu.me)**
 - 🎓 Pursuing a **Dual Degree** (B.Tech Chemical + M.Tech Financial Engineering) at **IIT Kharagpur** — CGPA **9.24 / 10**
 - 💼 Ex **Full Stack Intern @ Webyalaya** — designed event-driven Redis architecture that cut API latency **41%** (1.2s → 700ms)
 - 🏆 **SIH 2025 Finalist** — FieldSync placed Top 5 out of 500+ teams nationwide
@@ -44,7 +46,7 @@
 <tr>
 <td width="50%" valign="top">
 
-**🤖 AI Interview Orchestrator** · [repo](https://github.com/DEEN-42/ai-interview-orchestrator)
+**🤖 AI Interview Orchestrator** · [repo](https://github.com/DEEN-42/AgenticAI_Interviewer)
 
 Stateful LangGraph interviewer featuring custom **"Topic Burn" logic** and a 3-model fallback chain (Llama 3.3 70B → Mixtral → Llama 3.1 8B). FAISS + Tavily RAG for real-time context injection, with sub-50ms Redis session recovery.
 
@@ -57,7 +59,7 @@ Stateful LangGraph interviewer featuring custom **"Topic Burn" logic** and a 3-m
 </td>
 <td width="50%" valign="top">
 
-**📝 Collaborative CV Builder** · [repo](https://github.com/DEEN-42/cv-builder)
+**📝 Collaborative CV Builder** · [repo](https://github.com/DEEN-42/resumebuilder)
 
 Conflict-free real-time collaboration using Yjs CRDTs + WebSockets. Binary state-vector deltas compress payloads by 99%. BullMQ write-behind persistence cut MongoDB writes by 96%.
 
@@ -73,18 +75,6 @@ Conflict-free real-time collaboration using Yjs CRDTs + WebSockets. Binary state
 <tr>
 <td width="50%" valign="top">
 
-**💬 Multithreaded Chat Server** · [repo](https://github.com/DEEN-42/chat-server)
-
-High-performance C++ server managing 1,000+ concurrent connections via non-blocking I/O (WSAPoll). Producer-consumer model with mutex + condition_variable achieves 10,000+ messages/sec.
-
-`1,000+ concurrent connections` · `10,000+ msgs/sec`
-
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Winsock2](https://img.shields.io/badge/Winsock2-0078D4?style=flat-square&logo=windows&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
 **🌾 FieldSync — SIH 2025** · [repo](https://github.com/DEEN-42/SIH25-FieldSync)
 
 Crop residue logistics platform for 100+ concurrent users. Python service with K-Means + TSP + 2-opt cut travel distance 35% and fuel consumption 25%. IoT simulator streams 1,000+ data points/sec.
@@ -96,6 +86,34 @@ Crop residue logistics platform for 100+ concurrent users. Python service with K
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </td>
+<td width="50%" valign="top">
+
+**💬 Multithreaded Chat Server** · [repo](https://github.com/DEEN-42/ChatApplicationInTerminal)
+
+High-performance C++ server managing 1,000+ concurrent connections via non-blocking I/O (WSAPoll). Producer-consumer model with mutex + condition_variable achieves 10,000+ messages/sec.
+
+`1,000+ concurrent connections` · `10,000+ msgs/sec`
+
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Winsock2](https://img.shields.io/badge/Winsock2-0078D4?style=flat-square&logo=windows&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🔐 OTP Validator (NPM)** · [repo](https://github.com/DEEN-42/otp-validator) · [npm](https://www.npmjs.com/package/otp-validator-totp)
+
+Production-ready, stateless Time-based One-Time Password (TOTP) validation utility published to the NPM registry. Built for high-performance environments.
+
+`Open Source` · `Stateless Architecture`
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+  </td>
 </tr>
 </table>
 
@@ -132,7 +150,7 @@ Crop residue logistics platform for 100+ concurrent users. Python service with K
 
 | | |
 |---|---|
-| 📦 **Open Source** | Creator of `otp-validator-totp` (production-ready stateless NPM utility) |
+| 📦 **Open Source** | Published `otp-validator-totp` to the global NPM registry |
 | 🚀 **SIH 2025 Finals** | Top 5 out of 500+ teams nationwide |
 | 📐 **JEE Advanced 2023** | AIR 4118 out of 1,80,000 candidates |
 | 📊 **WBJEE 2023** | Rank 136 — top 0.1% of 1 lakh candidates |
