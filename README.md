@@ -104,12 +104,12 @@ Crop residue logistics platform for 100+ concurrent users. Python service with K
 ### 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DEEN-42&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEEN-42&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=0D1117" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=DEEN-42&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&v=1" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEEN-42&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=0D1117&v=1" height="170"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DEEN-42&theme=tokyonight&hide_border=true&background=0D1117" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DEEN-42&theme=tokyonight&hide_border=true&background=0D1117&v=1" height="170"/>
 </div>
 
 <div align="center">
