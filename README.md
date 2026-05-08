@@ -44,7 +44,7 @@
 <tr>
 <td width="50%" valign="top">
 
-**🤖 AI Interview Orchestrator** · [repo](https://github.com/DEEN-42)
+**🤖 AI Interview Orchestrator** · [repo](https://github.com/DEEN-42/ai-interview-orchestrator)
 
 Stateful LangGraph interviewer featuring custom **"Topic Burn" logic** and a 3-model fallback chain (Llama 3.3 70B → Mixtral → Llama 3.1 8B). FAISS + Tavily RAG for real-time context injection, with sub-50ms Redis session recovery.
 
@@ -57,7 +57,7 @@ Stateful LangGraph interviewer featuring custom **"Topic Burn" logic** and a 3-m
 </td>
 <td width="50%" valign="top">
 
-**📝 Collaborative CV Builder** · [repo](https://github.com/DEEN-42)
+**📝 Collaborative CV Builder** · [repo](https://github.com/DEEN-42/cv-builder)
 
 Conflict-free real-time collaboration using Yjs CRDTs + WebSockets. Binary state-vector deltas compress payloads by 99%. BullMQ write-behind persistence cut MongoDB writes by 96%.
 
@@ -73,7 +73,7 @@ Conflict-free real-time collaboration using Yjs CRDTs + WebSockets. Binary state
 <tr>
 <td width="50%" valign="top">
 
-**💬 Multithreaded Chat Server** · [repo](https://github.com/DEEN-42)
+**💬 Multithreaded Chat Server** · [repo](https://github.com/DEEN-42/chat-server)
 
 High-performance C++ server managing 1,000+ concurrent connections via non-blocking I/O (WSAPoll). Producer-consumer model with mutex + condition_variable achieves 10,000+ messages/sec.
 
@@ -104,7 +104,7 @@ Crop residue logistics platform for 100+ concurrent users. Python service with K
 ### 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DEEN-42&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=DEEN-42&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEEN-42&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=0D1117" height="170"/>
 </div>
 
