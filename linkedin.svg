@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="138" viewBox="0 0 1000 138" role="img" aria-label="28,000 requests per second project benchmark; LeetCode peak 2353, Guardian; Smart India Hackathon 2025 top 5.">
+<title>28,000 requests per second project benchmark; LeetCode peak 2353, Guardian; Smart India Hackathon 2025 top 5.</title>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a34"/><stop offset="1" stop-color="#090e1c"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#49dcff"/><stop offset=".6" stop-color="#8f92ff"/><stop offset="1" stop-color="#b780ff"/></linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#90aaff" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1000" height="138" rx="16" fill="url(#bg)"/>
+<path d="M333 28V110M666 28V110" stroke="#26334f"/>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+<g font-size="35" font-weight="700"><text x="166" y="58" fill="#68e0ff">28,000 RPS</text><text x="500" y="58" fill="#b394ff">2353</text><text x="833" y="58" fill="#65e5ba">TOP 5</text></g>
+<g font-size="13" fill="#d4def3"><text x="166" y="88">C++ IN-MEMORY DATABASE</text><text x="500" y="88">LEETCODE PEAK RATING</text><text x="833" y="88">SMART INDIA HACKATHON '25</text></g>
+<g font-size="11" fill="#8598b9"><text x="166" y="111">project benchmark</text><text x="500" y="111">Guardian · top 0.41% at peak</text><text x="833" y="111">500+ nationwide participants</text></g>
+</g>
+</svg>

@@ -1,163 +1,171 @@
-<div align="center">
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Debanshu+Ghosh;Software+Engineer+%40+IIT+Kharagpur;Backend+Systems+%7C+Agentic+AI" alt="Typing SVG" />
-</a>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-debanshu.me-2563EB?style=flat-square)](https://debanshu.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/debanshu-ghosh)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:debanshughosh685@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DEEN-42)
-[![LeetCode](https://img.shields.io/badge/LeetCode_Guardian-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/deen42)
-[![Codeforces](https://img.shields.io/badge/Codeforces_Expert-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/deen42)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=DEEN-42.DEEN-42)
-
-</div>
-
----
-
-### 🧑‍💻 About me
-
-- 🌐 Check out my full work and 3D experiences at **[debanshu.me](https://debanshu.me)**
-- 🎓 Pursuing a **Dual Degree** (B.Tech Chemical + M.Tech Financial Engineering) at **IIT Kharagpur** — CGPA **9.24 / 10**
-- 💼 Ex **Full Stack Intern @ Webyalaya** — designed event-driven Redis architecture that cut API latency **41%** (1.2s → 700ms)
-- 🏆 **SIH 2025 Finalist** — FieldSync placed Top 5 out of 500+ teams nationwide
-- 🚀 Focused on **backend optimization**, **high-concurrency systems**, and **Agentic AI** orchestration
-- 📫 Open to **SDE internships (July 2026 cycle)**, backend roles, and research collaborations
-
----
-
-### 🛠️ Tech Stack
-
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,ts,js,py,solidity,react,nextjs,nodejs,nestjs,express,fastapi,postgres,mongodb,redis,aws,docker,prometheus,grafana&perline=9" />
-  </a>
-</p>
-<p align="center">
-  <i>Also specializing in: <b>LangGraph</b>, <b>FAISS</b>, <b>NeonDB</b>, <b>Winsock2</b>, and <b>BullMQ</b>.</i>
+  <img src="assets/hero.svg" width="100%" alt="Debanshu Ghosh — backend systems, real-time applications, agentic AI" />
 </p>
 
----
+<p align="center">
+  <a href="https://debanshu.me"><img src="assets/portfolio.svg" height="34" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/debanshu-ghosh-381962306"><img src="assets/linkedin.svg" height="34" alt="LinkedIn" /></a>
+  <a href="mailto:debanshughosh685@gmail.com"><img src="assets/email.svg" height="34" alt="Email" /></a>
+  <a href="https://github.com/DEEN-42?tab=repositories"><img src="assets/projects.svg" height="34" alt="Repositories" /></a>
+</p>
 
-### 🚀 Featured Projects
+<table>
+<tr>
+<td width="52%" valign="middle">
+
+### Hey, I'm Debanshu 👋
+
+I build **fast backends, real-time products, and AI systems** — from C++ memory management to distributed job queues and stateful agents.
+
+🚀 **Incoming Summer Intern @ eBay · 2027**
+
+💻 **SDE Intern @ Edumorph** · Aug 2026–present
+
+🎓 **IIT Kharagpur** · Chemical Engineering<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023–2028 · **9.25 / 10 CGPA**
+
+My favorite engineering problems: concurrency, low latency, resilient infrastructure, and making complex systems feel simple.
+
+</td>
+<td width="48%" valign="middle">
+  <img src="assets/debanshu-developer.gif" width="100%" alt="Pixel-art animation of a developer working at a desktop computer" />
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="assets/highlights.svg" width="100%" alt="28,000 requests per second in a C++ benchmark; LeetCode peak rating 2353; Smart India Hackathon 2025 top 5" />
+</p>
+
+## 01 / Engineering in the real world
+
+**Edumorph · SDE Intern**<br>
+<sub>Aug 2026–present · Remote</sub>
+
+- Built a video-progress pipeline with **Redis Cluster**, dirty-flag tracking, TTL jitter, and **BullMQ** workers for deferred database persistence.
+- Engineered a **Razorpay** workflow handling **250+ transactions**, with dynamic QR codes, payment links, and automated checkout reminders.
+- Built a notification scheduler reaching **2,000+ users** through **FCM**, with rich media and deep links.
+- Integrated authentication and analytics as install-to-signup conversion rose from **55% to 78%**; built the Flutter frontend for a voice-enabled AI tutor.
+
+**Webyalaya · Full Stack Developer Intern**<br>
+<sub>Nov 2025–Feb 2026</sub>
+
+- Built an async **AWS ECS / NestJS / Redis / BullMQ** pipeline that cut core API response time from **1,200 ms to 700 ms**.
+- Added **Prometheus, Grafana, and Sentry** observability, idempotent payments, and Google Calendar synchronization.
+- Reduced redundant transcription network calls by **60%** through React-side stream debouncing.
+
+<img src="assets/divider.svg" width="100%" height="24" alt="" />
+
+## 02 / Things I've built
+
+### ⚡ [InMemoryDB](https://github.com/DEEN-42/MemoryAllocator)
+
+**A C++17 in-memory key-value store built around concurrency and predictable latency.**
+
+Non-blocking Winsock2 reactor, SPMC worker pool, 64-way sharding, memory arenas, a dual-buffered AOF logger, and an O(1) timing wheel. Includes a sharded token-bucket rate limiter and proactive memory eviction.
+
+| Peak throughput | Latency | Stress test |
+| :--- | :--- | :--- |
+| **28,000 requests/s** | **0.4 ms p50 · 1.2 ms p99** | **1M requests · 1,000 clients · zero errors** |
+
+<sub>Measured in project benchmarks; results depend on hardware and workload.</sub>
+
+`C++17` `Winsock2` `Concurrency` `Memory management` `Persistence`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🤖 AI Interview Orchestrator** · [repo](https://github.com/DEEN-42/AgenticAI_Interviewer)
+### 🧠 AI Interviewer
 
-Stateful LangGraph interviewer featuring custom **"Topic Burn" logic** and a 3-model fallback chain (Llama 3.3 70B → Mixtral → Llama 3.1 8B). FAISS + Tavily RAG for real-time context injection, with sub-50ms Redis session recovery.
+A stateful interview agent with adaptive Socratic questioning, continuous candidate scoring, and retrieval-augmented context.
 
-`40% token cost reduction` · `100% uptime during rate limits`
+**40% lower cost** · **sub-50 ms session recovery**
 
-![LangGraph](https://img.shields.io/badge/LangGraph-000?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+Three-model fallback routing maintained **90% uptime during API service outages** in project evaluation.
 
-</td>
-<td width="50%" valign="top">
+`LangGraph` `FastAPI` `Redis` `FAISS` `Tavily`
 
-**📝 Collaborative CV Builder** · [repo](https://github.com/DEEN-42/resumebuilder)
-
-Conflict-free real-time collaboration using Yjs CRDTs + WebSockets. Binary state-vector deltas compress payloads by 99%. BullMQ write-behind persistence cut MongoDB writes by 96%.
-
-`99% network payload reduction` · `96% fewer DB writes`
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Yjs](https://img.shields.io/badge/Yjs-000?style=flat-square)
-![BullMQ](https://img.shields.io/badge/BullMQ-red?style=flat-square)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🌾 FieldSync — SIH 2025** · [repo](https://github.com/DEEN-42/SIH25-FieldSync)
-
-Crop residue logistics platform for 100+ concurrent users. Python service with K-Means + TSP + 2-opt cut travel distance 35% and fuel consumption 25%. IoT simulator streams 1,000+ data points/sec.
-
-`Top 5 / 500+ teams nationwide` · `35% less travel distance`
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![NeonDB](https://img.shields.io/badge/NeonDB-00E5BF?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[Explore the code →](https://github.com/DEEN-42/AgenticAI_Interviewer)
 
 </td>
 <td width="50%" valign="top">
 
-**💬 Multithreaded Chat Server** · [repo](https://github.com/DEEN-42/ChatApplicationInTerminal)
+### 📝 Collaborative CV Builder
 
-High-performance C++ server managing 1,000+ concurrent connections via non-blocking I/O (WSAPoll). Producer-consumer model with mutex + condition_variable achieves 10,000+ messages/sec.
+Conflict-free editing with Yjs CRDTs, binary state-vector deltas, and Redis Pub/Sub for cross-server synchronization.
 
-`1,000+ concurrent connections` · `10,000+ msgs/sec`
+**90% smaller payloads** · **96% fewer synchronous DB writes**
 
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Winsock2](https://img.shields.io/badge/Winsock2-0078D4?style=flat-square&logo=windows&logoColor=white)
+BullMQ write-behind persistence keeps database work off the live editing path.
+
+`Yjs` `WebSockets` `Redis` `BullMQ`
+
+[Explore the code →](https://github.com/DEEN-42/resumebuilder)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**🔐 OTP Validator (NPM)** · [repo](https://github.com/DEEN-42/otp-validator) · [npm](https://www.npmjs.com/package/otp-validator-totp)
+### 🌾 FieldSync
 
-Production-ready, stateless Time-based One-Time Password (TOTP) validation utility published to the NPM registry. Built for high-performance environments.
+**Smart India Hackathon 2025 finalist · Top 5 / 500+**
 
-`Open Source` · `Stateless Architecture`
+A six-service crop-residue logistics platform with spatial clustering, route optimization, and live machinery telemetry.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
+`Node.js` `PostgreSQL` `Redis` `OR-Tools` `Python`
+
+[Explore the code →](https://github.com/DEEN-42/SIH25-FieldSync)
 
 </td>
 <td width="50%" valign="top">
-  </td>
+
+### 🔐 OTP Validator
+
+**Published open-source npm package**
+
+A stateless time-based one-time password validation utility for developers integrating TOTP authentication.
+
+`TypeScript` `npm` `TOTP`
+
+[Explore the code →](https://github.com/DEEN-42/otp-validator) · [View on npm ↗](https://www.npmjs.com/package/otp-validator-totp)
+
+</td>
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" width="100%" height="24" alt="" />
 
-### 📈 GitHub Stats
+## 03 / Problem solving, competitively
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DEEN-42&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&v=1" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEEN-42&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=0D1117&v=1" height="170"/>
-</div>
+| Platform | Handle | Peak rating | Achievement |
+| :--- | :--- | ---: | :--- |
+| **LeetCode** | [deen42](https://leetcode.com/deen42) | **2353** | Guardian · top **0.41%** at peak |
+| **Codeforces** | [deen42](https://codeforces.com/profile/deen42) | **1736** | Expert |
+| **CodeChef** | [debanshu_42](https://www.codechef.com/users/debanshu_42) | **1900** | 4-star |
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DEEN-42&theme=tokyonight&hide_border=true&background=0D1117&v=1" height="170"/>
-</div>
+## 04 / My engineering toolkit
 
-<div align="center">
-  <img src="https://leetcard.jacoblin.cool/deen42?theme=dark&font=syne&ext=activity&bg=0D1117" height="200"/>
-</div>
+| Layer | Technologies |
+| :--- | :--- |
+| **Languages** | C · C++ · JavaScript · TypeScript · Python |
+| **Backend & APIs** | Node.js · NestJS · Express · FastAPI · WebSockets |
+| **Data & queues** | PostgreSQL · Redis · MongoDB · MySQL · NeonDB · Prisma · BullMQ |
+| **AI & retrieval** | LangGraph · LangChain · FAISS · Tavily |
+| **Frontend & mobile** | React · Next.js · Tailwind CSS · Flutter |
+| **Cloud & observability** | AWS · Docker · Git · Prometheus · Grafana · Sentry |
+| **Foundations** | Data structures & algorithms · OOP · DBMS · Operating systems · Networks |
 
----
+<br>
 
-### ⚔️ Competitive Programming
+<p align="center">
+  <b>Have an interesting systems problem? Let's build.</b><br><br>
+  <a href="https://debanshu.me">debanshu.me</a> &nbsp; / &nbsp;
+  <a href="mailto:debanshughosh685@gmail.com">Say hello</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/debanshu-ghosh-381962306">LinkedIn</a>
+</p>
 
-| Platform | Handle | Rating | Rank |
-|---|---|---|---|
-| LeetCode | [deen42](https://leetcode.com/deen42) | **2126** | Guardian |
-| Codeforces | [deen42](https://codeforces.com/profile/deen42) | **1736** | Expert |
-| CodeChef | [debanshu_42](https://codechef.com/users/debanshu_42) | **1900** | 4-Star |
-
----
-
-### 🏆 Milestones & Highlights
-
-| | |
-|---|---|
-| 📦 **Open Source** | Published `otp-validator-totp` to the global NPM registry |
-| 🚀 **SIH 2025 Finals** | Top 5 out of 500+ teams nationwide |
-| 📐 **JEE Advanced 2023** | AIR 4118 out of 1,80,000 candidates |
-| 📊 **WBJEE 2023** | Rank 136 — top 0.1% of 1 lakh candidates |
-| 🎓 **IIT Kharagpur** | CGPA 9.24/10 — Dual Degree 2028 |
-
----
-
-<div align="center">
-  <i>Building systems that scale. One commit at a time.</i>
-</div>
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="Build with intent. Measure the impact. Keep shipping." />
+</p>
