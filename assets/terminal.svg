@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" role="img" aria-label="Terminal: currently shipping low-latency systems at Edumorph / next stop: eBay, Summer 2027 / open to: backend · distributed systems · agentic AI / lets build something fast.">
+<title>Terminal: currently shipping low-latency systems at Edumorph / next stop: eBay, Summer 2027 / open to: backend · distributed systems · agentic AI / lets build something fast.</title>
+<defs></defs>
+<style>.cv{opacity:0;fill:#0D0D0D;animation:cv .5s steps(3,end) both}
+.cv.h{animation-name:cvh}
+@keyframes cv{0%{opacity:1;fill:#0D0D0D}50%{opacity:1;fill:#161616}80%,100%{opacity:0}}
+@keyframes cvh{0%{opacity:1;fill:#0D0D0D}45%{opacity:1;fill:#F5A524}80%,100%{opacity:0}}
+.up{animation:up .4s ease-out both}@keyframes up{0%{opacity:0;transform:translateY(6px)}75%,100%{opacity:1;transform:none}}
+.live{animation:live 1.6s steps(1) infinite}@keyframes live{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.cv,.up,.live,.dr,.bk,.tw,.ty,.cn{animation:none}}
+.tw{animation:tw 16s linear infinite both}
+@keyframes tw{0%,23%{opacity:1}23.5%,100%{opacity:0}}
+.bk{animation:bk 1s steps(1) infinite}@keyframes bk{50%{opacity:0}}
+.ty0{animation:ty0 16s infinite both}@keyframes ty0{0%{transform:translateX(0);animation-timing-function:steps(50,end)}11.25%,100%{transform:translateX(480.0px)}}
+.ty1{animation:ty1 16s infinite both}@keyframes ty1{0%{transform:translateX(0);animation-timing-function:steps(28,end)}11.25%,100%{transform:translateX(268.8px)}}
+.ty2{animation:ty2 16s infinite both}@keyframes ty2{0%{transform:translateX(0);animation-timing-function:steps(51,end)}11.25%,100%{transform:translateX(489.6px)}}
+.ty3{animation:ty3 16s infinite both}@keyframes ty3{0%{transform:translateX(0);animation-timing-function:steps(27,end)}11.25%,100%{transform:translateX(259.2px)}}</style>
+<rect x=".5" y=".5" width="999" height="119" rx="14" fill="#0D0D0D" stroke="#262626"/>
+<text x="28" y="32" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">~/deen-42 <tspan fill="#262626">—</tspan> zsh</text>
+<path d="M1 46H999" stroke="#262626"/>
+<text x="28" y="80" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#F5A524">$</text>
+<g class="tw" style="animation-delay:-0s"><text x="52" y="80" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="16" fill="#EDEDED" textLength="480.0" lengthAdjust="spacingAndGlyphs">currently shipping low-latency systems at Edumorph</text><g class="ty0" style="animation-delay:-0s"><rect x="52" y="62" width="510" height="26" fill="#0D0D0D"/><rect class="bk" x="53" y="65" width="9" height="19" fill="#F5A524"/></g></g>
+<g class="tw" style="animation-delay:-12s"><text x="52" y="80" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="16" fill="#EDEDED" textLength="268.8" lengthAdjust="spacingAndGlyphs">next stop: eBay, Summer 2027</text><g class="ty1" style="animation-delay:-12s"><rect x="52" y="62" width="299" height="26" fill="#0D0D0D"/><rect class="bk" x="53" y="65" width="9" height="19" fill="#F5A524"/></g></g>
+<g class="tw" style="animation-delay:-8s"><text x="52" y="80" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="16" fill="#EDEDED" textLength="489.6" lengthAdjust="spacingAndGlyphs">open to: backend · distributed systems · agentic AI</text><g class="ty2" style="animation-delay:-8s"><rect x="52" y="62" width="520" height="26" fill="#0D0D0D"/><rect class="bk" x="53" y="65" width="9" height="19" fill="#F5A524"/></g></g>
+<g class="tw" style="animation-delay:-4s"><text x="52" y="80" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="16" fill="#EDEDED" textLength="259.2" lengthAdjust="spacingAndGlyphs">let&#39;s build something fast.</text><g class="ty3" style="animation-delay:-4s"><rect x="52" y="62" width="289" height="26" fill="#0D0D0D"/><rect class="bk" x="53" y="65" width="9" height="19" fill="#F5A524"/></g></g>
+<text x="972" y="100" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#8A8A8A">DEEN-42 · IIT KHARAGPUR</text>
+
+</svg>

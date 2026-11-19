@@ -39,104 +39,45 @@ I build **fast backends, real-time products and AI systems**, from C++ memory ma
 ## <img src="assets/icons/briefcase.svg" width="22" height="22" alt="" /> 01 / Experience
 
 <p align="center">
-  <img src="assets/experience.svg" width="100%" alt="Edumorph, SDE Intern (Aug 2026 to present, remote): video-progress pipeline on Redis Cluster and BullMQ workers; Razorpay QR and payment links, 250+ transactions; push notifications via FCM to 2,000+ users; install-to-signup conversion 55% to 78%. Webyalaya, Full Stack Intern (Nov 2025 to Feb 2026): core API latency 1,200 ms to 700 ms on AWS ECS; observability with Prometheus, Grafana, Sentry; idempotent Razorpay gateway and Google Calendar sync; transcription network calls cut by 60%." />
+  <img src="assets/experience.svg" width="100%" alt="Career ladder. Step 1: Webyalaya, Full Stack Intern, Nov 2025 to Feb 2026: API latency 1,200 to 700 ms; Prometheus, Grafana, Sentry; idempotent Razorpay gateway; transcription calls cut 60%. Step 2 (current): Edumorph, SDE Intern, Aug 2026 to present: Redis Cluster and BullMQ pipeline; 250+ Razorpay transactions; FCM push to 2,000+ users; signup conversion 55% to 78%. Step 3 (next): eBay, Summer Intern, Summer 2027." />
 </p>
 
 <img src="assets/divider.svg" width="100%" height="24" alt="" />
 
 ## <img src="assets/icons/boxes.svg" width="22" height="22" alt="" /> 02 / Things I've built
 
-### <img src="assets/icons/zap.svg" width="20" height="20" alt="" /> [InMemoryDB](https://github.com/DEEN-42/MemoryAllocator)
-
-A C++17 in-memory key-value store built for concurrency and predictable latency: non-blocking reactor, 64-way sharding, memory arenas, AOF persistence and an O(1) timing wheel.
-
-| Peak throughput | Latency | Stress test |
-| :--- | :--- | :--- |
-| **28,000 req/s** | **0.4 ms p50 · 1.2 ms p99** | **1M requests · 1,000 clients · 0 errors** |
-
-`C++17` `Winsock2` `Concurrency` `Memory management` `Persistence`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="assets/icons/brain-circuit.svg" width="20" height="20" alt="" /> AI Interviewer
-
-Stateful interview agent with adaptive Socratic questioning and RAG context.
-
-**40%** lower cost · **sub-50 ms** session recovery · **90%** uptime through API outages
-
-`LangGraph` `FastAPI` `Redis` `FAISS` `Tavily`
-
-[Explore the code →](https://github.com/DEEN-42/AgenticAI_Interviewer)
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="assets/icons/file-text.svg" width="20" height="20" alt="" /> Collaborative CV Builder
-
-Conflict-free editing with Yjs CRDTs and Redis Pub/Sub across servers.
-
-**90%** smaller payloads · **96%** fewer synchronous DB writes
-
-`Yjs` `WebSockets` `Redis` `BullMQ`
-
-[Explore the code →](https://github.com/DEEN-42/resumebuilder)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="assets/icons/wheat.svg" width="20" height="20" alt="" /> FieldSync
-
-**Smart India Hackathon 2025 · Top 5 / 500+**
-
-Six-service crop-residue logistics platform: spatial clustering, route optimisation, live telemetry.
-
-`Node.js` `PostgreSQL` `Redis` `OR-Tools` `Python`
-
-[Explore the code →](https://github.com/DEEN-42/SIH25-FieldSync)
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="assets/icons/shield-check.svg" width="20" height="20" alt="" /> OTP Validator
-
-**Published npm package**
-
-Stateless TOTP validation utility for developers adding one-time-password auth.
-
-`TypeScript` `npm` `TOTP`
-
-[Explore the code →](https://github.com/DEEN-42/otp-validator) · [npm ↗](https://www.npmjs.com/package/otp-validator-totp)
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/DEEN-42/MemoryAllocator"><img src="assets/project-inmemorydb.svg" width="49%" alt="InMemoryDB: C++17 key-value store. 28,000 requests per second, 0.4 ms p50 latency, 1M requests with 0 errors." /></a>
+  <a href="https://github.com/DEEN-42/AgenticAI_Interviewer"><img src="assets/project-ai-interviewer.svg" width="49%" alt="AI Interviewer: stateful interview agent. 40% lower cost, under 50 ms recovery, 90% uptime during outages." /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/DEEN-42/resumebuilder"><img src="assets/project-cv-builder.svg" width="49%" alt="Collaborative CV Builder: real-time CRDT editing. 90% smaller payloads, 96% fewer DB writes, sub-millisecond reconciliation." /></a>
+  <a href="https://github.com/DEEN-42/SIH25-FieldSync"><img src="assets/project-fieldsync.svg" width="49%" alt="FieldSync: crop-residue logistics platform, Smart India Hackathon 2025 top 5 of 500+ teams, 6 microservices, live IoT telemetry." /></a>
+</p>
 
 <img src="assets/divider.svg" width="100%" height="24" alt="" />
 
-## <img src="assets/icons/trophy.svg" width="22" height="22" alt="" /> 03 / Competitive programming
+## <img src="assets/icons/git-pull-request.svg" width="22" height="22" alt="" /> 03 / On GitHub
 
-| Platform | Handle | Peak rating | Title |
-| :--- | :--- | ---: | :--- |
-| **LeetCode** | [deen42](https://leetcode.com/deen42) | **2353** | Guardian · top **0.41%** |
-| **Codeforces** | [deen42](https://codeforces.com/profile/deen42) | **1736** | Expert |
-| **CodeChef** | [debanshu_42](https://www.codechef.com/users/debanshu_42) | **1900** | 4-star |
+<p align="center">
+  <a href="https://github.com/DEEN-42"><img src="assets/github-stats.svg" width="100%" alt="GitHub activity for DEEN-42: total contributions, contributions in the last 12 months, and merged pull requests, with a contribution heatmap." /></a>
+</p>
 
-## <img src="assets/icons/wrench.svg" width="22" height="22" alt="" /> 04 / Toolkit
+<img src="assets/divider.svg" width="100%" height="24" alt="" />
 
-| Layer | Technologies |
-| :--- | :--- |
-| **Languages** | C · C++ · JavaScript · TypeScript · Python |
-| **Backend & APIs** | Node.js · NestJS · Express · FastAPI · WebSockets |
-| **Data & queues** | PostgreSQL · Redis · MongoDB · MySQL · NeonDB · Prisma · BullMQ |
-| **AI & retrieval** | LangGraph · LangChain · FAISS · Tavily |
-| **Frontend & mobile** | React · Next.js · Tailwind CSS · Flutter |
-| **Cloud & observability** | AWS · Docker · Prometheus · Grafana · Sentry |
+## <img src="assets/icons/trophy.svg" width="22" height="22" alt="" /> 04 / Competitive programming
+
+<p align="center">
+  <a href="https://leetcode.com/deen42"><img src="assets/cp-leetcode.svg" width="32.5%" alt="LeetCode @deen42: peak rating 2353, Guardian, top 0.41%." /></a>
+  <a href="https://codeforces.com/profile/deen42"><img src="assets/cp-codeforces.svg" width="32.5%" alt="Codeforces @deen42: peak rating 1736, Expert." /></a>
+  <a href="https://www.codechef.com/users/debanshu_42"><img src="assets/cp-codechef.svg" width="32.5%" alt="CodeChef @debanshu_42: peak rating 1900, 4-star." /></a>
+</p>
 
 <br>
+
+<p align="center">
+  <img src="assets/terminal.svg" width="100%" alt="Terminal typing: currently shipping low-latency systems at Edumorph; next stop eBay, Summer 2027; open to backend, distributed systems and agentic AI; let's build something fast." />
+</p>
 
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="Build with intent. Measure the impact. Keep shipping." />
