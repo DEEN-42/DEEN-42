@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158" height="34" viewBox="0 0 158 34" role="img" aria-label="Portfolio">
+<title>Portfolio</title>
+<defs></defs>
+<style></style>
+<rect x=".5" y=".5" width="157" height="33" rx="7" fill="#161616" stroke="#262626"/><g transform="translate(14 9) scale(.6667)" fill="none" stroke="#F5A524" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/> <path d="M2 12h20"/></g><text x="94" y="21.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#EDEDED">PORTFOLIO</text>
+
+</svg>
