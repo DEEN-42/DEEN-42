@@ -121,7 +121,7 @@ def render(s, user):
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('--user', default='DEEN-42')
-    ap.add_argument('--out', default=os.path.join(os.path.dirname(__file__), '..', 'assets', 'github-stats.svg'))
+    ap.add_argument('--out', default=os.path.join(os.path.dirname(__file__), '..', 'assets', 'stats', 'github.svg'))
     a = ap.parse_args()
     tok = os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
     s = via_graphql(a.user, tok) if tok else via_public(a.user)
